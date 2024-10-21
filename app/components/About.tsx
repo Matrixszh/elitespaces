@@ -60,7 +60,7 @@ const About = () => {
                   delay: (index + firstLineWords.length) * 0.2 + 0.2,
                   duration: 0.3,
                 }}
-                className="inline-block mx-1 text-[#264845]"
+                className="inline-block mx-1 text-[#D72323]"
               >
                 {word}
               </motion.span>
@@ -136,7 +136,7 @@ const About = () => {
             className="w-full lg:w-1/3 text-justify"
           >
             <p className="text-black/80 md:text-xl text-lg font-normal font-Jost leading-normal">
-            At <span className="text-red-500">Sixth Dimension Studio</span>, we specialize in creating innovative, functional, and stylish interiors that reflect the individuality of our clients. Whether you’re looking to design your dream home or revamp a commercial space, our dedicated team is here to bring your vision to life. We believe that every space tells a story. Our mission is to craft interiors that are not only beautiful but also functional and reflective of your personal style.With a focus on timeless elegance and modern innovation, we cater to both residential and commercial clients.
+            At <span className="text-[#D72323]">Sixth Dimension Studio</span>, we specialize in creating innovative, functional, and stylish interiors that reflect the individuality of our clients. Whether you’re looking to design your dream home or revamp a commercial space, our dedicated team is here to bring your vision to life. We believe that every space tells a story. Our mission is to craft interiors that are not only beautiful but also functional and reflective of your personal style.With a focus on timeless elegance and modern innovation, we cater to both residential and commercial clients.
 
             </p>
           </motion.div>

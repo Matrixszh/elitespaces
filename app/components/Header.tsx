@@ -59,15 +59,15 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-white shadow-md">
       <div className="mx-auto flex items-center justify-between py-4 px-5 lg:px-12">
-        <p className="text-[18px] font-bold font-Jost uppercase tracking-[1.00px] text-[#264845] lg:hidden whitespace-nowrap">
-          Sixth <span className="text-red-500 font-Jost">Dimension</span> Studio
+        <p className="text-[18px] font-bold font-Jost uppercase tracking-[1.00px] text-black lg:hidden whitespace-nowrap">
+         <span className="text-[#D72323] font-Jost">Elite</span> Spaces
         </p>
         {/* Hamburger menu for mobile */}
         <button onClick={toggleMenu} className="lg:hidden">
           {isMenuOpen ? (
             <X size={24} className="text-red-500" />
           ) : (
-            <Menu size={24} className="text-[#264845]" />
+            <Menu size={24} className="text-black" />
           )}
         </button>
 
@@ -80,8 +80,8 @@ const Header = () => {
                 href={item.href}
                 className={`px-4 py-2 text-[13px] font-medium whitespace-nowrap uppercase tracking-[1.00px] rounded-[16px] transition-colors duration-200 ${
                   activeItem === item.title
-                    ? "bg-[#264845] text-white"
-                    : "text-black hover:bg-[#264845]/15"
+                    ? "bg-[#D72323] text-white"
+                    : "text-black hover:bg-[#D72323]/15"
                 }`}
                 onClick={() => handleItemClick(item.title)}
               >
@@ -90,8 +90,8 @@ const Header = () => {
             ))}
           </div>
 
-          <p className="text-[18px] font-semibold uppercase tracking-[1.00px] text-[#41544e] mx-[46px] whitespace-nowrap">
-            Sixth <span className="text-red-500">Dimension</span> Studio
+          <p className="text-[18px] font-semibold uppercase tracking-[1.00px] text-black mx-[46px] whitespace-nowrap">
+          <span className="text-[#D72323]">Elite</span> Spaces
           </p>
 
           <div className="flex items-center gap-[46px]">
@@ -101,8 +101,8 @@ const Header = () => {
                 href={item.href}
                 className={`px-4 py-2 text-[13px] font-medium whitespace-nowrap uppercase tracking-[1.00px] rounded-[16px] transition-colors duration-200 ${
                   activeItem === item.title
-                    ? "bg-[#264845] text-white"
-                    : "text-black hover:bg-[#264845]/15"
+                    ? "bg-[#D72323] text-white"
+                    : "text-black hover:bg-[#D72323]/15"
                 }`}
                 onClick={() => handleItemClick(item.title)}
               >

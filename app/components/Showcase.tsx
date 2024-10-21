@@ -6,12 +6,12 @@ import { BentoGrid, BentoGridItem } from "@/app/components/ui/bento-grid";
 import { cn } from "@/lib/utils";
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 
-import img2 from '@/app/public/images/1.jpg'; 
-import img1 from '@/app/public/images/aboutus2.jpg';
-import img3 from '@/app/public/images/3.jpg'; 
-import img4 from '@/app/public/images/aboutus1.jpg';
-import img5 from '@/app/public/images/6.jpg';
-import img6 from '@/app/public/images/landcarousal.jpg'; 
+import img2 from '@/public/images/elite1.jpg'; 
+import img1 from '@/public/images/elite10.jpg';
+import img3 from '@/public/images/elite14.jpg'; 
+import img4 from '@/public/images/elite3.jpg';
+import img5 from '@/public/images/elite11.jpg';
+import img6 from '@/public/images/elite6.jpg'; 
 
 const images = [
   {
@@ -112,7 +112,7 @@ const Showcase: React.FC = () => {
         {/* Showcase Heading with Framer Motion Animation */}
         <motion.h1
           ref={headingRef} // Attach the ref to track when it comes into view
-          className="text-3xl text-[#264845] text-center sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight"
+          className="text-3xl text-[#D72323] text-center sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight"
           initial={{ y: -100, opacity: 0 }} // Start off-screen (below) and invisible
           animate={isInView ? { y: 0, opacity: 1 } : {}} // Animate when heading comes into view
           transition={{ duration: 0.8, ease: "easeOut" }} // Duration of 0.8 seconds

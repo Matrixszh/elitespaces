@@ -3,10 +3,10 @@ import React, { useState, useEffect, useCallback } from "react";
 import Image, { StaticImageData } from "next/image";
 import { ChevronUp, ChevronDown } from "lucide-react";
 
-import img1 from "@/app/public/images/1.jpg";
-import img2 from "@/app/public/images/2.jpg";
-import img3 from "@/app/public/images/3.jpg";
-import img4 from "@/app/public/images/4.jpg";
+import img1 from "@/public/images/elite6.jpg";
+import img2 from "@/public/images/elite10.jpg";
+import img3 from "@/public/images/elite15.jpg";
+import img4 from "@/public/images/elite11.jpg";
 
 interface Project {
   name: string;
@@ -14,10 +14,10 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { name: "Chic Living Room", image: img1 },
-  { name: "Cozy Seating", image: img2 },
+  { name: "Modular Kitchen", image: img1 },
+  { name: "Cozy Bathroom", image: img2 },
   { name: "Urban Kitchen", image: img3 },
-  { name: "Spacious Closet", image: img4 },
+  { name: "Modest Alley", image: img4 },
 ];
 
 const LatestProjects: React.FC = () => {
@@ -52,7 +52,7 @@ const LatestProjects: React.FC = () => {
   return (
     <section id="#" className="py-16 px-5 sm:px-10 lg:px-20 text-center">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl text-[#264845] sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
+        <h1 className="text-3xl text-[#D72323] sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
           Design Excellence
           </h1>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">

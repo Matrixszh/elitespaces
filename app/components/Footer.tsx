@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/app/public/images/logo.png";
+import logo from "@/public/images/logo.jpeg";
 import { Instagram } from "lucide-react";
 import { FaPinterest, FaBehance } from "react-icons/fa";
 
@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="lg:flex lg:items-center  ">
             <p className="text-[34px] font-extrabold tracking-tighter text-center md:text-[40px] lg:text-[84px] lg:leading-[84px] lg:text-left md:text-center">
               Let&apos;s <br className="hidden" />{" "}
-              <span className="text-[#264845]">Connect</span>
+              <span className="text-[#D72323]">Connect</span>
             </p>
           </div>
           <div className="bg-gray-400 w" />
@@ -48,8 +48,8 @@ const Footer = () => {
 
             {/* Copyright in the center */}
             <div className="flex-grow text-center">
-              <span className="uppercase text-[#264845] tracking-[0.3em] font-medium font-Jost text-sm sm:text-base">
-                © sixth <span className="text-red-500 font-Jost">dimension </span>studio
+              <span className="uppercase text-black tracking-[0.3em] font-medium font-Jost text-sm sm:text-base">
+               <span className="text-[#D72323] font-Jost">© elite </span>spaces
               </span>
             </div>
 
@@ -58,7 +58,7 @@ const Footer = () => {
               <a href="https://pin.it/oHxgl6946" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
                 <FaPinterest size={20} />
               </a>
-              <a href="https://www.instagram.com/sixthdimensionstudio?igsh=MWd2MGE0cHo5ajIydw==" target="_blank" rel="noopener noreferrer" className="hover:text-black text-[#264845] transition-colors duration-300">
+              <a href="https://www.instagram.com/sixthdimensionstudio?igsh=MWd2MGE0cHo5ajIydw==" target="_blank" rel="noopener noreferrer" className="hover:text-black text-[#D72323] transition-colors duration-300">
                 <Instagram size={20} />
               </a>
               <a href="https://www.behance.net/sixthdimensionstudio" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
