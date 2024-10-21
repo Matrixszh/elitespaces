@@ -17,7 +17,7 @@ const About = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   const firstLineWords = ["Our", "Love", "for"];
   const secondLineWords = ["Interior", "Design"];
@@ -136,9 +136,16 @@ const About = () => {
             className="w-full lg:w-1/3 text-justify"
           >
             <p className="text-black/80 md:text-xl text-left text-lg font-normal font-Jost leading-relaxed">
-            At <span className="text-[#D72323]">EliteSpaces</span>,we specialize in transforming homes through expert kitchen and bathroom renovations, as well as stunning home additions. With a track record of over 100 successful projects, we take pride in creating functional, beautiful spaces tailored to our clients' unique needs and lifestyles.</p>
+              At <span className="text-[#D72323]">EliteSpaces</span>, we
+              specialize in transforming homes through expert kitchen and
+              bathroom renovations, as well as stunning home additions. With a
+              track record of over 100 successful projects, we take pride in
+              creating functional, beautiful spaces tailored to our clients&apos; unique needs and lifestyles.
+            </p>
             <p className="text-black/80 md:text-xl text-left text-lg font-normal font-Jost leading-relaxed">
-            From concept to completion, our team of experienced professionals is dedicated to delivering top-quality craftsmanship and exceptional service on every project. Whether you’re looking to upgrade your kitchen, refresh your bathroom, or expand your living space, EliteSpaces is committed to making your vision a reality.
+              From concept to completion, our team of experienced professionals
+              is dedicated to delivering top-quality craftsmanship and
+              exceptional service on every project. Whether you&apos;re looking to upgrade your kitchen, refresh your bathroom, or expand your living space, EliteSpaces is committed to making your vision a reality.
             </p>
           </motion.div>
         </div>

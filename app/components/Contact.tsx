@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect, useState } from "react";
 import Confetti from "react-confetti";
 import { Typewriter } from "react-simple-typewriter";
@@ -9,6 +9,11 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+
+  const handleConfetti = () => {
+    setShowConfetti(true);
+    setTimeout(() => setShowConfetti(false), 5000); // Turn off confetti after 5 seconds
+  };
 
   return (
     <section id="Contact" className="text-center py-16 px-5 sm:px-10 lg:px-20">
@@ -52,6 +57,14 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
+
+      {/* Trigger Confetti Effect */}
+      <button
+        onClick={handleConfetti}
+        className="mt-8 bg-[#D72323] text-white py-2 px-4 rounded-full"
+      >
+        Celebrate!
+      </button>
 
       {/* Confetti effect */}
       {showConfetti && (
