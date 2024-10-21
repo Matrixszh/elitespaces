@@ -15,8 +15,8 @@ interface Project {
 
 const projects: Project[] = [
   { name: "Modular Kitchen", image: img1 },
-  { name: "Cozy Bathroom", image: img2 },
-  { name: "Urban Kitchen", image: img3 },
+  { name: "Cozy Sitting", image: img2 },
+  { name: "Minimalistic Bathroom", image: img3 },
   { name: "Modest Alley", image: img4 },
 ];
 

@@ -135,9 +135,10 @@ const About = () => {
             }}
             className="w-full lg:w-1/3 text-justify"
           >
-            <p className="text-black/80 md:text-xl text-lg font-normal font-Jost leading-normal">
-            At <span className="text-[#D72323]">Sixth Dimension Studio</span>, we specialize in creating innovative, functional, and stylish interiors that reflect the individuality of our clients. Whether you’re looking to design your dream home or revamp a commercial space, our dedicated team is here to bring your vision to life. We believe that every space tells a story. Our mission is to craft interiors that are not only beautiful but also functional and reflective of your personal style.With a focus on timeless elegance and modern innovation, we cater to both residential and commercial clients.
-
+            <p className="text-black/80 md:text-xl text-left text-lg font-normal font-Jost leading-relaxed">
+            At <span className="text-[#D72323]">EliteSpaces</span>,we specialize in transforming homes through expert kitchen and bathroom renovations, as well as stunning home additions. With a track record of over 100 successful projects, we take pride in creating functional, beautiful spaces tailored to our clients' unique needs and lifestyles.</p>
+            <p className="text-black/80 md:text-xl text-left text-lg font-normal font-Jost leading-relaxed">
+            From concept to completion, our team of experienced professionals is dedicated to delivering top-quality craftsmanship and exceptional service on every project. Whether you’re looking to upgrade your kitchen, refresh your bathroom, or expand your living space, EliteSpaces is committed to making your vision a reality.
             </p>
           </motion.div>
         </div>

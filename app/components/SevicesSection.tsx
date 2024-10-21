@@ -8,8 +8,8 @@ import kitchen from '@/public/images/elite14.jpg';
 import { motion, useInView } from 'framer-motion';
 
 const services = [
-  { name: 'Kitchen Remodelling', description: 'Home design & décor services. ', image: kitchen },
-  { name: 'Bathroom Remodelling', description: 'Office, retail, hospitality design.', image: bath },
+  { name: 'Kitchen Remodelling', description: 'Kitchen design & décor services. ', image: kitchen },
+  { name: 'Bathroom Remodelling', description: 'Design, Acessories and Lighting.', image: bath },
   { name: 'Consultation', description: 'Expert design advice & guidance.', image: consultation },
   { name: 'Renovations', description: 'Design coordination & execution.', image: renovation },
 ];

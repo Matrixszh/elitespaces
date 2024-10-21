@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "@/public/images/logo.jpeg";
 import { Instagram } from "lucide-react";
-import { FaPinterest, FaBehance } from "react-icons/fa";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -18,15 +18,15 @@ const Footer = () => {
           <div className="bg-gray-400 w" />
           <div className="lg:flex w-fit sm:flex sm:flex-col md:flex md:flex-row md:mt-4 ">
             <div className="flex flex-col p-10 items-center w-fit max-sm:p-4">
-              <p className=" lg:text-3xl font-Jost">Rana Ram</p>
+              <p className=" lg:text-3xl font-Jost">Alex</p>
               <div className="flex flex-col mt-[38px] font-Jost text-center gap-1 text-black text-opacity-75 max-sm:text-[15px]">
-                <p>+91 820 961 0775</p>
-                <p>studiosixthdimension@gmail.com</p>
+                <p>+1-630-709-1629</p>
+                <p>acosta2535@gmail.com</p>
               </div>
               <div className="mt-5 flex flex-col gap-1 text-black text-opacity-75 max-sm:text-[15px]">
                 <p className="text-center font-Jost ">
-                  White Fields,
-                  <br className="sm:hidden lg:block" /> Kondapur
+                  Chicago,
+                  <br className="sm:hidden lg:block" /> USA
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Footer = () => {
               <Image
                 src={logo}
                 alt="Logo"
-                className="h-12 w-12"
+                className="h-20 w-20"
               />
             </div>
 
@@ -55,14 +55,14 @@ const Footer = () => {
 
             {/* Social Icons on the right */}
             <div className="flex space-x-4 flex-shrink-0">
-              <a href="https://pin.it/oHxgl6946" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
-                <FaPinterest size={20} />
+              <a href="https://www.facebook.com/eliteonepro/" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
+                <FaFacebook size={20} />
               </a>
-              <a href="https://www.instagram.com/sixthdimensionstudio?igsh=MWd2MGE0cHo5ajIydw==" target="_blank" rel="noopener noreferrer" className="hover:text-black text-[#D72323] transition-colors duration-300">
+              <a href="https://www.instagram.com/alexclosingchicago?igsh=MWJ4bnpranEydjJjbg==" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
                 <Instagram size={20} />
               </a>
-              <a href="https://www.behance.net/sixthdimensionstudio" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
-                <FaBehance size={20} />
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
+                <FaLinkedin size={20} />
               </a>
             </div>
           </div>
