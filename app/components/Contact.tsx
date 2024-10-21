@@ -1,15 +1,11 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
 const Contact = () => {
-
-
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
-
-
 
   return (
     <section id="Contact" className="text-center py-16 px-5 sm:px-10 lg:px-20">
@@ -54,12 +50,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Trigger Confetti Effect */}
-
-
-      {/* Confetti effect */}
-      
-    
     </section>
   );
 };
