@@ -49,7 +49,6 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
-
     </section>
   );
 };
