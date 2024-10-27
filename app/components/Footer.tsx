@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "@/public/images/logo.jpeg";
 import { Instagram } from "lucide-react";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaFacebook} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
               <p className=" lg:text-3xl font-Jost">Alex</p>
               <div className="flex flex-col mt-[38px] font-Jost text-center gap-1 text-black text-opacity-75 max-sm:text-[15px]">
                 <p>+1-630-709-1629</p>
-                <p>acosta2535@gmail.com</p>
+                <p>aalexelite@gmail.com</p>
               </div>
               <div className="mt-5 flex flex-col gap-1 text-black text-opacity-75 max-sm:text-[15px]">
                 <p className="text-center font-Jost ">
@@ -60,9 +60,6 @@ const Footer = () => {
               </a>
               <a href="https://www.instagram.com/alexclosingchicago?igsh=MWJ4bnpranEydjJjbg==" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
                 <Instagram size={20} />
-              </a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-black text-red-500 transition-colors duration-300">
-                <FaLinkedin size={20} />
               </a>
             </div>
           </div>

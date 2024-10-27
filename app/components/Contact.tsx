@@ -37,14 +37,21 @@ const Contact = () => {
 
       {/* Calendly Embed */}
       <div className="w-full max-w-[38rem] mt-8 mx-auto font-Jost">
-        <div className="calendly-inline-widget" style={{ minWidth: '320px', height: '650px' }}>
+        <div
+          className="calendly-inline-widget"
+          style={{
+            minWidth: '320px',
+            height: '650px',
+            borderRadius: '10px',
+            overflow: 'hidden',
+          }}
+        >
           <iframe
-            src="https://calendly.com/your-calendly-link"
+            src="https://calendly.com/alexxinvestor/30min?embed_domain=yourdomain.com&embed_type=Inline"
             width="100%"
-            height="100%"
+            height="650px"
             frameBorder="0"
-            scrolling="no"
-            style={{ borderRadius: '10px', overflow: 'hidden' }}
+            style={{ border: '0', borderRadius: '10px' }}
             title="Schedule a call"
           ></iframe>
         </div>

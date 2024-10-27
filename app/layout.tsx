@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "sixthdimensionstudio",
+  title: "Elite Spaces",
   description: "",
+  icons: {
+    icon: "/logo.jpeg", // Replace this with the actual path to your logo in the 'public' folder
+  },
 };
 
 export default function RootLayout({
@@ -36,7 +39,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={` font-Jakarta antialiased`}>{children}</body>
+      <body className={`font-Jakarta antialiased`}>{children}</body>
     </html>
   );
 }
