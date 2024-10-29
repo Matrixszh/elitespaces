@@ -47,9 +47,9 @@ const Contact = () => {
           }}
         >
           <iframe
-            src="https://calendly.com/alexxinvestor/30min?embed_domain=yourdomain.com&embed_type=Inline"
+            src="https://calendly.com/alexxinvestor/30min?hide_event_type_details=1&hide_gdpr_banner=1"
             width="100%"
-            height="650px"
+            height="100%"
             frameBorder="0"
             style={{ border: '0', borderRadius: '10px' }}
             title="Schedule a call"

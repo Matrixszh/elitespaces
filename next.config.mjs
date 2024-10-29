@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['picsum.photos'], // Add the external domain here
-      },
-      
+  output: 'export',  // This enables static export
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

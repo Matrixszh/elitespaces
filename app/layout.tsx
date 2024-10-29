@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Elite Spaces",
   description: "",
   icons: {
-    icon: "/logo.jpeg", // Replace this with the actual path to your logo in the 'public' folder
+    icon: "/logo.png", // Replace this with the actual path to your logo in the 'public' folder
   },
 };
 
