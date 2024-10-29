@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="bg-gray-400" />
           <div className="lg:flex w-fit sm:flex sm:flex-col md:flex md:flex-row md:mt-4">
-            <div className="flex flex-col p-10 items-center w-fit max-sm:p-10 max-sm:items-center max-sm:justify-center">
+            <div className="flex flex-col p-6 items-center w-fit max-sm:p-10 max-sm:items-center max-sm:justify-center">
               <p className="lg:text-3xl font-Jost">Alex</p>
               <div className="flex flex-col mt-[38px] font-Jost text-center gap-1 text-black text-opacity-75 max-sm:text-[15px]">
                 <p>+1-630-709-1629</p>
