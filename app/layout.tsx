@@ -2,10 +2,25 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://elitespaces.org/"),
   title: "Elite Spaces",
-  description: "",
-  icons: {
-    icon: "/logo.jpeg", // Replace this with the actual path to your logo in the 'public' folder
+  openGraph: {
+    title: "Elite Spaces",
+    images: [
+      {
+        url: "https://elitespaces.org/images/logom.png", // Updated path to images folder
+        width: 1200,
+        height: 630,
+        alt: "Elite Spaces",
+      },
+    ],
+    type: "website",
+    url: "https://elitespaces.org/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Elite Spaces",
+    images: ["https://elitespaces.org/images/logom.png"], // Updated path to images folder
   },
 };
 
