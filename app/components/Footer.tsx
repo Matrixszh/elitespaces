@@ -19,11 +19,11 @@ const Footer = () => {
           <div className="lg:flex w-fit sm:flex sm:flex-col md:flex md:flex-row md:mt-4">
             <div className="flex flex-col p-6 items-center w-fit max-sm:p-10 max-sm:items-center max-sm:justify-center">
               <p className="lg:text-3xl font-Jost">Alex</p>
-              <div className="flex flex-col mt-[38px] font-Jost text-center gap-1 text-black text-opacity-75 max-sm:text-[15px]">
+              <div className="flex flex-col mt-[18px] font-Jost text-center gap-1 text-black text-opacity-75 max-sm:text-[15px]">
                 <p>+1-630-709-1629</p>
                 <p>aalexelite@gmail.com</p>
               </div>
-              <div className="mt-5 flex flex-col gap-1 text-black text-opacity-75 max-sm:text-[15px]">
+              <div className="mt-2 flex flex-col gap-1 text-black text-opacity-75 max-sm:text-[15px]">
                 <p className="text-center font-Jost">
                   Chicago,
                   <br className="sm:hidden lg:block" /> USA
